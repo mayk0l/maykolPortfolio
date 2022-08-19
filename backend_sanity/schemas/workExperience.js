@@ -1,0 +1,21 @@
+export default {
+    name:'experienciaTrabajo',
+    title:'ExperienciaTrabajo',
+    type:'document',
+    fields:[
+           {name:'name',
+               title:'Name',
+               type:'string'
+            },
+            {
+                name:'company',
+                title:'Company',
+                type:'string'
+            },
+            {
+                name:'desc',
+                title:'Desc',
+                type:'string'
+            }
+    ]
+}
