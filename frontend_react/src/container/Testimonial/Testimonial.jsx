@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react'
-import { motion } from 'framer-motion';
 import { HiChevronLeft, HiChevronRight } from 'react-icons/hi';
 
 import { AppWrap, MotionWrap } from '../../wrapper';
@@ -7,7 +6,6 @@ import { urlFor, client } from '../../client';
 import './Testimonial.scss';
 
 const Testimonial = () => {
-  const [marcas, setMarcas] = useState([]);
   const [testimonios, setTestimonios] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -17,17 +15,12 @@ const Testimonial = () => {
 
   useEffect(() => {
     const query = '*[_type == "testimonios"]';
-    const marcasQuery = '*[_type == "marcas"]';
 
     client.fetch(query)
       .then((data) => {
         setTestimonios(data);
       })
-    
-    client.fetch(marcasQuery)
-    .then((data) => {
-      setMarcas(data);
-    })
+
   }, [])
 
   const testeo = testimonios[currentIndex];
@@ -58,17 +51,7 @@ const Testimonial = () => {
         </>
       )}
 
-      <div className="app__testimonial-brands app__flex">
-      {marcas.map((marca) => (
-          <motion.div
-            whileInView={{ opacity: [0, 1] }}
-            transition={{ duration: 0.5, type: 'tween' }}
-            key={marca._id}
-          >
-            <img src={urlFor(testeo.imgUrl)} alt="{marca.name}"/>
-          </motion.div>
-        ))}
-      </div>
+      
     </>
   )
 }

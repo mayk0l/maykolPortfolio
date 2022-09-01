@@ -76,6 +76,7 @@
   text-align: left;
   color: #ecebeb;
   line-height: 1.5;
+  opacity: 0.7;
 
   @media screen and (min-width: 2000px) {
     font-size: 1.75rem;
@@ -85,7 +86,7 @@
 .bold-text {
   font-size: 1rem;
   font-weight: 800;
-  color: var(--black-color);
+  color: #ffffff;
   text-align: left;
 
   @media screen and (min-width: 2000px) {
