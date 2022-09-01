@@ -1,5 +1,5 @@
 .app {
-  background-color: var(--primary-color);
+  background-color: #121212;
   font-family: var(--font-base);
 }
 
@@ -47,7 +47,7 @@
 
   p {
     text-transform: uppercase;
-    color: var(--black-color);
+    color: #ffffff;
   }
 }
 
@@ -55,11 +55,11 @@
   font-size: 2.75rem;
   font-weight: 800;
   text-align: center;
-  color: var(--black-color);
+  color: #ffffff;
   text-transform: none;
 
   span {
-    color: var(--secondary-color);
+    color: #bb86fc;
   }
 
   @media screen and (min-width: 2000px) {
@@ -74,7 +74,7 @@
 .p-text {
   font-size: 0.8rem;
   text-align: left;
-  color: var(--gray-color);
+  color: #ecebeb;
   line-height: 1.5;
 
   @media screen and (min-width: 2000px) {
@@ -123,15 +123,15 @@
     svg {
       width: 15px;
       height: 15px;
-      color: var(--gray-color);
+      color: #bb86fc;
     }
 
     &:hover {
-      background-color: var(--secondary-color);
-      border-color: var(--secondary-color);
+      background-color: #bb86fc;
+      border-color: #bb86fc;
 
       svg {
-        color: var(--white-color);
+        color: #ffffff;
       }
     }
 
@@ -167,7 +167,7 @@
     transition: background-color 0.2s ease-in-out;
 
     &:hover {
-      background-color: var(--secondary-color);
+      background-color: #bb86fc;
     }
 
     @media screen and (min-width: 2000px) {

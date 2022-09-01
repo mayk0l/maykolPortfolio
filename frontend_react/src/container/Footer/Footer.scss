@@ -23,7 +23,7 @@
         padding: 1rem;
         border-radius: 10px;
         cursor: pointer;
-        background-color: #fef4f5;
+        background-color: #1e1e1e;
 
         transition: all 0.3s ease-in-out;
 
@@ -57,7 +57,7 @@
 }
 
 .app__footer-cards .app__footer-card:last-child {
-    background-color: #f2f7fb;
+    background-color: #1e1e1e;
 }
 
 .app__footer-form {
@@ -71,7 +71,7 @@
         margin: 0.75rem 0;
         border-radius: 10px;
         cursor: pointer;
-        background-color: var(--primary-color);
+        background-color: #1e1e1e;
 
         transition: all 0.3s ease-in-out;
         
@@ -80,10 +80,10 @@
             padding: 0.95rem;
             border: none;
             border-radius: 7px;
-            background-color: var(--primary-color);
+            background-color: #1e1e1e;
 
             font-family: var(--font-base);
-            color: var(--secondary-color);
+            color: #ffffff;
             outline: none;
         }
 
@@ -100,7 +100,7 @@
         padding: 1rem 2rem;
         border-radius: 10px;
         border: none;
-        background-color: var(--secondary-color);
+        background-color: #ffffff;
 
         font-weight: 500;
         color: var(--white-color);

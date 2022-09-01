@@ -7,7 +7,7 @@
 .app__testimonial-item {
     width: 60%;
     min-height: 320px;
-    background-color: var(--white-color);
+    background-color: #1d1d1d;
     display: flex;
     padding: 2rem;
     border-radius: 15px;
@@ -55,19 +55,19 @@
     p {
         font-size: 1.25rem;
         line-height: 2rem;
-        color: var(--black-color);
+        color: #ffffff;
         font-family: var(--font-base);
     }
 
     h4 {
         font-weight: 600;
-        color: var(--secondary-color);
+        color: #bb86bb;
         margin-top: 2rem;
     }
 
     h5 {
         font-weight: 400;
-        color: var(--gray-color);
+        color: #cacaca;
         margin-top: 5px;
     }
 }
@@ -88,14 +88,14 @@
         svg {
             width: 20px;
             height: 20px;
-            color: var(--secondary-color);
+            color: #bb86bb;
         }
 
         &:hover {
-            background-color: var(--secondary-color);
+            background-color: #bb86bb;
 
             svg {
-                color: var(--whitecolor);
+                color: #ffffff;
             }
         }
     }
