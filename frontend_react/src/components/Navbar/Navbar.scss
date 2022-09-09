@@ -55,7 +55,7 @@
         }
 
         a {
-            color: var(--gray-color);
+            color: #ffffff;
             text-decoration: none;
             flex-direction: column;
 
@@ -65,13 +65,13 @@
             transition: all 0.3s ease-in-out;
 
             &:hover {
-                color: var(--secondary-color)
+                color: #bb86fc;
             }
         }
 
         &:hover {
             div {
-                background: var(--secondary-color);
+                background: #bb86fc;
             }
         }
     }
